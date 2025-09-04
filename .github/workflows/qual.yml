@@ -1,9 +1,9 @@
-name: "DEVELOPMENT DEPLOY"
+name: "QUALITY DEPLOY"
 
 on:
   push:
     branches:
-      - dev
+      - qual
 
 permissions:
   id-token: write
