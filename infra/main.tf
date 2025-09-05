@@ -1,4 +1,3 @@
-
 module "lambda_layer" {
-  source = "./"
+  source = "./modules/lambda_layer"
 }

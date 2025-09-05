@@ -14,6 +14,7 @@ jobs:
     uses: Malldre/Github-Actions/.github/workflows/drizzle.yml@main
 
   terraform:
+    needs: drizzle
     uses: Malldre/Github-Actions/.github/workflows/terraform.yml@main
     with:
       environment: dev
